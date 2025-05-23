@@ -1,0 +1,20 @@
+# Hive Table Definitions
+
+## Customer Table
+CREATE TABLE customer (
+    id INT,
+    name STRING,
+    email STRING
+);
+
+## Orders Table
+CREATE TABLE orders (
+    order_id INT,
+    customer_id INT,
+    order_date STRING
+);
+
+## Table Descriptions
+- The customer table stores basic customer information including their ID, name, and email address
+- The orders table tracks customer orders with order ID, customer ID, and order date
+- These tables can be joined using the customer_id field to link orders with customer information 

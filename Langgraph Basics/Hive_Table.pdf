@@ -1,0 +1,11 @@
+Table: customer
+Columns:
+- id INT
+- name STRING
+- email STRING
+
+Table: orders
+Columns:
+- order_id INT
+- customer_id INT
+- order_date STRING
